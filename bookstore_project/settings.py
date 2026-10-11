@@ -31,9 +31,9 @@ load_dotenv(BASE_DIR / '.env')
 SECRET_KEY = 'django-insecure-tp+8lm&u4*$$bl3&asd&ebta6idur9q^^tt^b50wq1$4z4b9i3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = []
 
 # ---- Razorpay ----
 # Get these from https://dashboard.razorpay.com/app/keys (Test Mode keys to
